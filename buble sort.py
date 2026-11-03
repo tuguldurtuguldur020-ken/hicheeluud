@@ -627,3 +627,74 @@
 #                 a[o], a[o+1] = a[o+1],a[o]
 # print(a)
 
+# 25
+# a = [8,3,6]
+# b = [2,9,1,5]
+# c = a+b
+# for i in range(len(c)):
+#     for u in range(len(c)- 1 - i):
+#         if c[u]>c[u+1]:
+#             c[u],c[u+1] = c[u+1],c[u]
+# print(c)
+
+# 26
+# a = [6,2,5,1,4]
+# count = 0
+# for i in range(len(a)):
+#     count+=1
+#     for j in range(len(a)-1-i):
+#         if a[j] > a[j+1]:
+#             a[j],a[j+1]=a[j+1],a[j]
+# print(a)
+# print(count)
+# 27
+# a = [18,5,12,3,25,9,7]
+# for i in range(len(a)):
+#     for m in range(len(a)-1-i):
+#         if a[m]>a[m+1]:
+#             a[m],a[m+1]=a[m+1],a[m]
+# print(a[2])
+# # 28
+# students = [
+#     ["Bat", 85],
+#     ["Anu", 92],
+#     ["Bold", 85],
+#     ["Saraa", 70],
+#     ["Temuulen", 92]
+# ]
+# for i in range(len(students)):
+#     for u in range(len(students)-1-i):
+#         if students[u][1]<students[u+1][1]:
+#             students[u],students[u+1]=students[u+1],students[u]
+# print(students)
+# 29
+# a  = [3, 1, 4, 2, 5]
+# total=0
+# count = 0 
+# for i in range(len(a)):
+#     total+=i
+#     count+=1
+#     for u in range(len(a)-1-i):
+#         total+=u
+#         count+=1
+#         if a[u]>a[u+1]:
+#             a[u],a[u+1]=a[u+1],a[u]
+# print(a)
+# print(total)
+# print(count)
+# 30
+# a = [
+#     ["Mouse", 25000, 12],
+#     ["Keyboard", 65000, 5],
+#     ["USB", 12000, 20],
+#     ["Headphone", 65000, 8],
+#     ["Webcam", 40000, 3]
+# ]
+# for i in range(len(a)):
+#     for u in range(len(a)-1-i):
+#         if a[u][1]<a[u+1][1]:
+#             a[u],a[u+1]=a[u+1],a[u]
+# print(a)
+# # ner = input()
+# une = int(input())
+# uldegdel = int(input())
