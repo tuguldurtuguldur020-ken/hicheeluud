@@ -220,18 +220,18 @@
 
 # # 21
 
-# n = int(input(";;"))
+n = int(input(";;"))
 
-# hamgiin_baga = int(input("hed ve"))
-# for i in range(n):
+hamgiin_baga = int(input("hed ve"))
+for i in range(n-1):
 
-#     dun = int(input())
+    dun = int(input())
 
-#     if dun < hamgiin_baga:
+    if dun < hamgiin_baga:
 
-#         hamgiin_baga = dun
+        hamgiin_baga = dun
 
-# print(f"hamgiin baga dun",hamgiin_baga)
+print(f"hamgiin baga dun",hamgiin_baga)
 
 # 22
 # n = input()
@@ -284,8 +284,8 @@
 # else:
 #     print("NO")
 
-count = 0 
-for i in range(1,101):
-    if i % 2 ==0 or i % 3 ==0 or i % 5==0:
-        count+=1
-print(count)
+# count = 0 
+# for i in range(1,101):
+#     if i % 2 ==0 or i % 3 ==0 or i % 5==0:
+#         count+=1
+# print(count)

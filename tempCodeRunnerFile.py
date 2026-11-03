@@ -1,11 +1,12 @@
-n = int(input())
-count = 0
+n = int(input(";;"))
 
-for i in range(1, n + 1):
-    if n % i == 0:
-        count += 1
+hamgiin_baga = int(input("hed ve"))
+for i in range(n):
 
-if count == 2:
-    print("YES")
-else:
-    print("NO")
+    dun = int(input())
+
+    if dun < hamgiin_baga:
+
+        hamgiin_baga = dun
+
+print(f"hamgiin baga dun",hamgiin_baga)
